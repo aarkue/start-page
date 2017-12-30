@@ -1,0 +1,45 @@
+body {
+  background-color: #000;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  color: #fff;
+}
+
+input {
+  color: #fff;
+  border: 5px ridge #FF00D0;
+  -webkit-text-stroke: 0px black;
+}
+
+#search-button {
+  box-sizing: border-box;
+  color: #fff;
+  background: black;
+  border: 3px solid #FF00D0;
+  -webkit-text-stroke: 0px black;
+}
+
+#search-button:hover {
+  border: 3px ridge #FF00D0;
+}
+
+.w {
+  background-color: #fff;
+}
+
+.w i {
+  color: black;
+}
+
+.w:hover i, .w.selected i {
+  color: #fff;
+}
+
+.wa {
+  background-color: #FECCD1;
+}
+
+.box:hover, .selected {
+  background: radial-gradient(circle, rgba(10, 10, 0, 1), rgba(0, 0, 0, 0));
+  /* background: transparent; */
+}
