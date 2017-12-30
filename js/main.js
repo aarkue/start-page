@@ -114,7 +114,7 @@ function openSite(c, t) {
       if (t === '') {
         window.open("https://www.wikipedia.org/", "_blank");
       } else {
-        window.open("https://wikipedia.org/w/?search=" + getSearchText(t, 3), '_blank');
+        window.open("https://wikipedia.org/w/?search=" + t.replace(/\s/g, '+', 3), '_blank');
       }
       break;
     case '!wa':
