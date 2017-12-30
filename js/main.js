@@ -4,18 +4,18 @@ $(function() {
 
 
   $('.box').dblclick(function(e) {
-    openSite(this.classList[1], '');
+    openSite("!"+this.classList[1], '');
   });
   $('.no-search').dblclick(function (e){
-    openSite(this.classList[1], '');
+    openSite("!"+this.classList[1], '');
   });
   $('.no-search').click(function (e){
-      if (e.shiftKey) openSite(this.classList[1], '');
+      if (e.shiftKey) openSite("!"+this.classList[1], '');
   });
 
   $('.box').click(function(e) {
     if (e.shiftKey) {
-      openSite(this.classList[1], '');
+      openSite("!"+this.classList[1], '');
     } else {
       $('.box').removeClass("selected");
       $('.' + this.classList[1]).addClass("selected");
