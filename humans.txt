@@ -1,3 +1,7 @@
 Credits:
-font-awesome
+font-awesome: https://fontawesome.com/
 https://lukas-w.github.io/font-linux/ (?)
+
+
+
+duckduckgo and wolframalpha logos are provided as images

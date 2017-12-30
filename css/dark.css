@@ -5,13 +5,13 @@ body {
   color: #fff;
 }
 
-input {
+input  {
   color: #fff;
   border: 5px ridge #FF00D0;
   -webkit-text-stroke: 0px black;
 }
 
-#search-button {
+#search-button, .dark, .help {
   box-sizing: border-box;
   color: #fff;
   background: black;
@@ -19,19 +19,20 @@ input {
   -webkit-text-stroke: 0px black;
 }
 
-#search-button:hover {
+#search-button:hover,.dark:hover,.help:hover {
   border: 3px ridge #FF00D0;
+  background-color: #350029;
 }
 
-.w {
+.w, .edu {
   background-color: #fff;
 }
 
-.w i {
+.w i, .edu i {
   color: black;
 }
 
-.w:hover i, .w.selected i {
+.w:hover i, .w.selected i, .edu:hover i, .edu.selected i  {
   color: #fff;
 }
 
@@ -41,5 +42,4 @@ input {
 
 .box:hover, .selected {
   background: radial-gradient(circle, rgba(10, 10, 0, 1), rgba(0, 0, 0, 0));
-  /* background: transparent; */
 }
