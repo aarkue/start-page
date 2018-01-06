@@ -21,7 +21,7 @@ $(function() {
   });
   $('.help').click(function(e){
     console.log("help");
-    window.open("https://aarkue.eu/explore/start-page/","_blank");
+    window.open("https://aarkue.eu/explore/start-page/#help","_blank");
   });
 
   $('.box').click(function(e) {
