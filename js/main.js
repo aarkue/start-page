@@ -142,7 +142,7 @@ function openSite(c, t) {
       }
       break;
     default:
-      window.open("https://www.google.com/search?q=" + getSearchText(t, 0), '_blank');
+      window.open("https://www.duckduckgo.com/?kp=-1&q=" + getSearchText(t, 0), '_blank');
       break;
   }
 }
