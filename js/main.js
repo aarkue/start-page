@@ -71,7 +71,7 @@ function openSite(c, t) {
       if (t === '') {
         window.open("https://www.reddit.com/ ", '_blank');
       } else {
-        window.open("https://www.google.com/search?q=" + getSearchText(t, 3) + " site:reddit.com ", '_blank');
+        window.open("https://www.duckduckgo.com/?kp=-1&q=" + getSearchText(t, 3) + " site:reddit.com ", '_blank');
       }
       break;
     case '!yt':
@@ -92,7 +92,7 @@ function openSite(c, t) {
       if (t === '') {
         window.open("https://wiki.archlinux.org/", "_blank");
       } else {
-        window.open("https://www.google.com/search?q=" + getSearchText(t, 4) + " site:wiki.archlinux.org ", '_blank');
+        window.open("https://www.duckduckgo.com/?kp=-1&q=" + getSearchText(t, 4) + " site:wiki.archlinux.org ", '_blank');
       }
       break;
     case '!d':
@@ -129,16 +129,16 @@ function openSite(c, t) {
       break;
     case '!edu':
       if (t === '') {
-        window.open("https://www.google.com/search?q=site:*.edu", "_blank");
+        window.open("https://www.duckduckgo.com/?kp=-1&q=site:*.edu", "_blank");
       } else {
-        window.open("https://www.google.com/search?q=" + getSearchText(t, 5) + " site:*.edu", '_blank');
+        window.open("https://www.duckduckgo.com/?kp=-1&q=" + getSearchText(t, 5) + " site:*.edu", '_blank');
       }
       break;
     case '!w3':
       if (t === '') {
         window.open("https://www.w3schools.com/");
       } else {
-        window.open("https://www.google.com/search?q=" + getSearchText(t, 4) + " site:w3schools.com", '_blank');
+        window.open("https://www.duckduckgo.com/?kp=-1&q=" + getSearchText(t, 4) + " site:w3schools.com", '_blank');
       }
       break;
     default:
